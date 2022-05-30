@@ -62,7 +62,7 @@ ROOT_URLCONF = 'SpartaSNS.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'C:\Users\최재완\Downloads\코딩\study\django\SpartaSNS\templates'],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
